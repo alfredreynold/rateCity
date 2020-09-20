@@ -1,0 +1,66 @@
+.card {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.title {
+    text-align: left;
+}
+hr {
+    border: none;
+    height: 2px !important;
+    margin: 0px;
+    padding: 0px;
+}
+.rate {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.advRate, .compRate {
+    flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
+    text-align: center;
+}
+.CompMoreInfo {
+    display: flex;
+    align-items: center;
+}
+
+.compare, .moreInfo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+ul li:before {
+    content: '✓';
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ilist {
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.compLogo, .siteButton {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.compLogo img {
+    width: 60%;
+}
+
+.siteButton {
+    height: 40px;
+    width: 60%;
+    padding-left: 5%;
+    text-align: center;
+}
